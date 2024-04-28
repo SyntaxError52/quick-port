@@ -1,0 +1,39 @@
+* {
+    font-family: Calibri, Consolas, Arial, 'Courier New', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: #6eb8bb;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: cadetblue;
+}
+a, button {
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
+    width: 60vw;
+    background-color: cadetblue;
+    transition: 75ms;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, button:hover {
+    background-color: #7bcdd0;
+    cursor: pointer;
+    scale: 105%;
+    border-radius: 10px;
+}
+a:active, button:active {
+    background-color: #91f3f6;
+    cursor: pointer;
+    scale: 110%;
+    border-radius: 15px;
+}
