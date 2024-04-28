@@ -4,5 +4,7 @@ function changeTheme(theme) {
         findlink.href = "themes/night.css";
     } else if (theme === 'blue') {
         findlink.href = "themes/blue.css";
+    } else if (theme === 'light') {
+        findlink.href = "themes/light.css";
     }
 }
