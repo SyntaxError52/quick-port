@@ -36,13 +36,5 @@ function generateString(length) {
 //////////////////////
 
 document.addEventListener('mousemove', () => {
-    document.getElementById('line1').innerHTML = generateString(20);
-    document.getElementById('line2').innerHTML = generateString(20);
-    document.getElementById('line3').innerHTML = generateString(20);
-    document.getElementById('line4').innerHTML = generateString(20);
-    document.getElementById('line5').innerHTML = generateString(20);
-    document.getElementById('line6').innerHTML = generateString(20);
-    document.getElementById('line7').innerHTML = generateString(20);
-    document.getElementById('line8').innerHTML = generateString(20);
-    document.getElementById('line9').innerHTML = generateString(20);
+    document.getElementById('randomTextEffect').innerHTML = generateString(500);
 });
