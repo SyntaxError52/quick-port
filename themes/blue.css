@@ -1,5 +1,6 @@
 * {
     font-family: Calibri, Consolas, Arial, 'Courier New', sans-serif;
+    overflow: hidden;
 }
 body {
     margin: 0;
